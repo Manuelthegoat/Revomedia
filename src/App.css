@@ -1,0 +1,10 @@
+.db{
+    display: block !important;
+}
+.ali{
+   justify-content: center !important;
+   width: 100% !important;
+}
+.hidden-big{
+    display: none !important;
+}
