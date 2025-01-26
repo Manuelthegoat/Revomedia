@@ -65,7 +65,7 @@ const Footer = () => {
                       </a>
                     </div>
                     <div class="tp-footer-2__text">
-                      <p>2972 Westheimer Rd. Santa Ana, Illinois 85486</p>
+                      <p>2972 Westheimer Rd. Santa Ana, Illinois </p>
                     </div>
                     <div class="tp-footer-2__contact-list">
                       <a href="mailto:support@example.com">
