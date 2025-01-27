@@ -48,7 +48,7 @@ const Services = () => {
                 </h5>
                 <br/>
                 <span class="tp-section-subtitle">
-                  As a one-stop printing service provider, Digitalreality
+                  As a one-stop printing service provider, Revomedia
                   provides businesses with cutting-edge technology to help them
                   bring their ideas to life. We deliver unrivalled quality and
                   timely results at unbeatable prices for everything from

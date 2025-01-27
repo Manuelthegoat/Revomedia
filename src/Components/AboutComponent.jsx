@@ -75,7 +75,7 @@ const AboutComponent = () => {
                 </div>
                 <div class="tp-service-2__text mb-25">
                   <p>
-                    Digitalreality Print Limited is a leading commercial
+                    Revomedia Print Limited is a leading commercial
                     printing company with a reputation for delivering quality.
                     With a commitment to excellence and a passion for
                     innovation, we have over the years established ourselves as
