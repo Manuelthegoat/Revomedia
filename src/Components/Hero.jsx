@@ -21,9 +21,9 @@ const Hero = () => {
             <a href="mailto:Contact@gmail.com">Contact@gmail.com</a>
           </div>
           <div class="tp-hero__social-box d-none d-xxl-block">
-            <a href="index.html#">Twitter</a>
-            <a href="index.html#">Facebook</a>
-            <a href="index.html#">Instagram</a>
+            <a href="index/#">Twitter</a>
+            <a href="/">Facebook</a>
+            <a href="/">Instagram</a>
           </div>
           <div class="container">
             <div class="row align-items-center">
@@ -85,7 +85,7 @@ const Hero = () => {
                     <p>
                       Unleashing the power of print, for your business. Bringing your vision to life, one print at a time!
                     </p>
-                    <a class="tp-main-btn" href="contact.html">
+                    <a class="tp-main-btn" href="/">
                       Let’s talk — Send a message
                       <i>
                         <svg

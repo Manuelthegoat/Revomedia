@@ -27,7 +27,7 @@ const Header = () => {
                       </button>
                     </div>
                     <div className="tp-header__logo">
-                      <a href="index/">
+                      <a href="/">
                         <img src="assets/img/logo/logo.png" alt="" />
                       </a>
                     </div>
@@ -38,26 +38,21 @@ const Header = () => {
                     <nav className="tp-main-menu-content">
                       <ul className="ali">
                         <li>
-                          <a href="about-us/">Home</a>
-                        </li>
-
-                        <li className="has-dropdown">
-                          <a href="service/">services</a>
-                          <ul className="submenu tp-submenu">
-                            <li>
-                              <a href="service/">service</a>
-                            </li>
-                            <li>
-                              <a href="service-details/">service details</a>
-                            </li>
-                          </ul>
+                          <a href="/">Home</a>
                         </li>
                         <li>
-                          <a href="about-us/">about</a>
+                          <a href="/about-us">about</a>
                         </li>
 
                         <li>
-                          <a href="contact/">contact</a>
+                          <a href="/services">Printing Services</a>
+                        </li>
+                        <li>
+                          <a href="/faq">FAQ</a>
+                        </li>
+                        
+                        <li>
+                          <a href="/contact">contact</a>
                         </li>
                       </ul>
                     </nav>
@@ -66,40 +61,11 @@ const Header = () => {
                 <div className="col-xl-2 col-lg-6 col-md-6 col-sm-6 col-6">
                   <div className="tp-header__right-box d-flex align-items-center justify-content-end">
                     <ul className="d-none d-sm-block">
+                    
                       <li>
-                        <div className="tp-header__icon-box">
-                          <a href="login/">
-                            <span>{/* User Icon Here */}</span>
-                          </a>
-                          <a href="index/#">
-                            <span className="heart p-relative">
-                              <i className="fa-light fa-heart"></i>
-                              <b className="tp-header__icon-text">0</b>
-                            </span>
-                          </a>
-                          <a href="cart/">
-                            <span className="cart p-relative">
-                              <svg
-                                width="22"
-                                height="21"
-                                viewBox="0 0 22 21"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <path
-                                  d="M21.0291 4.48689C20.908 4.3131 20.7132 4.20567 20.5016 4.19661L7.38131 3.63019C7.00487 3.61369 6.69029 3.90477 6.6742 4.28005C6.6582 4.65519 6.94835 4.97216 7.323 4.98827L19.555 5.5164L17.1499 13.0321H6.44709L4.51346 2.48719C4.47096 2.25608 4.31253 2.06327 4.09404 1.97742L0.927085 0.731306C0.578047 0.59444 0.184184 0.76615 0.0471052 1.11531C-0.0897364 1.46465 0.0816588 1.85937 0.430508 1.99666L3.24643 3.10463L5.21419 13.8346C5.2735 14.1572 5.55419 14.3915 5.88178 14.3915H6.2082L5.46283 16.4651C5.40045 16.6388 5.42615 16.8317 5.53232 16.9826C5.63835 17.1335 5.81078 17.2233 5.99486 17.2233H6.51766C6.19371 17.5844 5.99486 18.0599 5.99486 18.5827C5.99486 19.7072 6.90836 20.6218 8.03078 20.6218C9.1532 20.6218 10.0667 19.7072 10.0667 18.5827C10.0667 18.0599 9.86784 17.5844 9.54394 17.2233H13.9827C13.6587 17.5844 13.4599 18.0599 13.4599 18.5827C13.4599 19.7072 14.3731 20.6218 15.4958 20.6218C16.6185 20.6218 17.5317 19.7072 17.5317 18.5827C17.5317 18.0599 17.3329 17.5844 17.009 17.2233H17.6448C17.9572 17.2233 18.2104 16.9697 18.2104 16.657C18.2104 16.3441 17.9572 16.0905 17.6448 16.0905H6.79954L7.41023 14.3913H17.6448C17.9399 14.3913 18.201 14.2003 18.2909 13.9191L21.1186 5.08295C21.1835 4.88128 21.1502 4.66078 21.0291 4.48689ZM8.03083 19.4892C7.53179 19.4892 7.12595 19.0828 7.12595 18.583C7.12595 18.0832 7.53179 17.6767 8.03083 17.6767C8.52986 17.6767 8.93566 18.0832 8.93566 18.583C8.93566 19.0828 8.52986 19.4892 8.03083 19.4892ZM15.4958 19.4892C14.9967 19.4892 14.5909 19.0828 14.5909 18.583C14.5909 18.0832 14.9967 17.6767 15.4958 17.6767C15.9948 17.6767 16.4006 18.0832 16.4006 18.583C16.4006 19.0828 15.9948 19.4892 15.4958 19.4892Z"
-                                  fill="#020626"
-                                />
-                              </svg>
-                              <b className="tp-header__icon-text">0</b>
-                            </span>
-                          </a>
-                        </div>
-                      </li>
-                      <li>
-                        <div className="tp-header__chat-box d-none d-xxl-block">
-                          <a href="contact/">
-                            Let,s Talk
+                        <div className="tp-header__chat-box d-block">
+                          <a href="/contact">
+                            Let's Talk
                             <span>
                               <svg
                                 width="23"

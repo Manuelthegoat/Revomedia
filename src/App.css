@@ -8,3 +8,17 @@
 .hidden-big{
     display: none !important;
 }
+.ht-100{
+    height: 25rem !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.dfd{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    text-align: center;
+}

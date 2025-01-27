@@ -14,14 +14,13 @@ const TopOffCanvas = ({ className, setClassName }) => {
             </button>
           </div>
           <div className="tpoffcanvas__logo">
-            <a href="index.html">
-              <img src="assets/img/logo/white-logo.png" alt="" />
+            <a href="/">
+              <img src="assets/img/logo/logo.png" alt="" />
             </a>
           </div>
           <div className="tpoffcanvas__title">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
-              incidunt eaque a cumque, porro maxime autem sed.
+            Revolutionary digital printing media: we design; we print; we brand. call now let's partner
             </p>
           </div>
           <div className="tp-main-menu-mobile"></div>
@@ -33,19 +32,19 @@ const TopOffCanvas = ({ className, setClassName }) => {
               <li>
                 <i className="fa-light fa-location-dot"></i>
                 <a
-                  href="https://www.google.com/maps/@23.8223586,90.3661283,15z"
+                  href="https://maps.app.goo.gl/q255fezvsQ9NGynm7"
                   target="_blank"
                 >
-                  Melbone st, Australia, Ny 12099
+                  66, 27 Oguntolu St, Olajuwon St, Yaba, Lagos 100001, Lagos
                 </a>
               </li>
               <li>
                 <i className="fas fa-envelope"></i>
-                <a href="mailto:solaredge@gmail.com">themepure@gmail.com</a>
+                <a href="mailto:info@revomedia.com">info@revomedia.com</a>
               </li>
               <li>
                 <i className="fal fa-phone-alt"></i>
-                <a href="tel:+48555223224">+48 555 223 224</a>
+                <a href="tel:+2348114933065">+234 811 493 3065</a>
               </li>
             </ul>
           </div>
@@ -64,16 +63,16 @@ const TopOffCanvas = ({ className, setClassName }) => {
           </div>
           <div className="tpoffcanvas__social">
             <div className="social-icon">
-              <a href="index.html#">
+              <a href="/">
                 <i className="fab fa-twitter"></i>
               </a>
-              <a href="index.html#">
+              <a href="/">
                 <i className="fab fa-instagram"></i>
               </a>
-              <a href="index.html#">
+              <a href="/">
                 <i className="fab fa-facebook-f"></i>
               </a>
-              <a href="index.html#">
+              <a href="/">
                 <i className="fab fa-pinterest-p"></i>
               </a>
             </div>

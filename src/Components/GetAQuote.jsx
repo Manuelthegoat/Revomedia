@@ -1,6 +1,6 @@
 import React from "react";
 
-const GetAQuote = () => {
+const GetAQuote = ({hideSection}) => {
   return (
     <>
       <div class="tp-work-2__area fix">
@@ -50,6 +50,9 @@ const GetAQuote = () => {
             </div>
           </div>
         </div>
+        {hideSection === true ? <></> : (
+
+      
         <div class="tp-work-2__wrapper">
           <div class="container-fluid g-0">
             <div class="row">
@@ -64,7 +67,7 @@ const GetAQuote = () => {
                       />
                     </a>
                     <div class="tp-work-2__thumb-text">
-                      <a href="project-details.html">
+                      <a href="/">
                         <span>
                           <img src="assets/img/work/tshirt1.png" alt="" />T -
                           Shirt Design
@@ -84,7 +87,7 @@ const GetAQuote = () => {
                       />
                     </a>
                     <div class="tp-work-2__thumb-text">
-                      <a href="project-details.html">
+                      <a href="/">
                         <span>
                           <img src="assets/img/work/tshirt1.png" alt="" />T -
                           Shirt Design
@@ -104,7 +107,7 @@ const GetAQuote = () => {
                       />
                     </a>
                     <div class="tp-work-2__thumb-text">
-                      <a href="project-details.html">
+                      <a href="/">
                         <span>
                           <img src="assets/img/work/tshirt1.png" alt="" />T -
                           Shirt Design
@@ -130,7 +133,7 @@ const GetAQuote = () => {
                       />
                     </a>
                     <div class="tp-work-2__thumb-text">
-                      <a href="project-details.html">
+                      <a href="/">
                         <span>
                           <img src="assets/img/work/tshirt1.png" alt="" />T -
                           Shirt Design
@@ -150,7 +153,7 @@ const GetAQuote = () => {
                       />
                     </a>
                     <div class="tp-work-2__thumb-text">
-                      <a href="project-details.html">
+                      <a href="/">
                         <span>
                           <img src="assets/img/work/tshirt1.png" alt="" />T -
                           Shirt Design
@@ -170,7 +173,7 @@ const GetAQuote = () => {
                       />
                     </a>
                     <div class="tp-work-2__thumb-text">
-                      <a href="project-details.html">
+                      <a href="/">
                         <span>
                           <img src="assets/img/work/tshirt1.png" alt="" />T -
                           Shirt Design
@@ -186,6 +189,7 @@ const GetAQuote = () => {
             </div>
           </div>
         </div>
+          )}
       </div>
     </>
   );

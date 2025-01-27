@@ -60,7 +60,7 @@ const Footer = () => {
                 >
                   <div class="tp-footer-2__widget footer-col-5">
                     <div class="tp-footer-2__logo">
-                      <a href="index-2.html">
+                      <a href="/">
                         <img src="assets/img/logo/logo.png" alt="" />
                       </a>
                     </div>
@@ -74,16 +74,16 @@ const Footer = () => {
                       <a href="tel:+406555-0120">+ (406) 555-0120</a>
                     </div>
                     <div class="tp-footer-2__social-box">
-                      <a href="index-2.html#">
+                      <a href="/#">
                         <i class="fa-brands fa-facebook-f"></i>
                       </a>
-                      <a href="index-2.html#">
+                      <a href="/#">
                         <i class="fa-brands fa-vimeo-v"></i>
                       </a>
-                      <a href="index-2.html#">
+                      <a href="/#">
                         <i class="fa-brands fa-twitter"></i>
                       </a>
-                      <a href="index-2.html#">
+                      <a href="/#">
                         <i class="fa-brands fa-linkedin-in"></i>
                       </a>
                     </div>
@@ -99,19 +99,19 @@ const Footer = () => {
                     <div class="tp-footer-2__list">
                       <ul>
                         <li>
-                          <a href="index-2.html#">Newslatter & Blog</a>
+                          <a href="/#">Newslatter & Blog</a>
                         </li>
                         <li>
-                          <a href="index-2.html#">Carrer & Contact</a>
+                          <a href="/#">Carrer & Contact</a>
                         </li>
                         <li>
-                          <a href="index-2.html#">Monthly Offer</a>
+                          <a href="/#">Monthly Offer</a>
                         </li>
                         <li>
-                          <a href="index-2.html#">Affiliate Program</a>
+                          <a href="/#">Affiliate Program</a>
                         </li>
                         <li>
-                          <a href="index-2.html#">Referrel Programms</a>
+                          <a href="/#">Referrel Programms</a>
                         </li>
                       </ul>
                     </div>
@@ -127,19 +127,19 @@ const Footer = () => {
                     <div class="tp-footer-2__list">
                       <ul>
                         <li>
-                          <a href="index-2.html#">Flexographic Printing.</a>
+                          <a href="/#">Flexographic Printing.</a>
                         </li>
                         <li>
-                          <a href="index-2.html#">Computer & Laptop</a>
+                          <a href="/#">Computer & Laptop</a>
                         </li>
                         <li>
-                          <a href="index-2.html#">Surface Printing.</a>
+                          <a href="/#">Surface Printing.</a>
                         </li>
                         <li>
-                          <a href="index-2.html#">Brochure & Home gift</a>
+                          <a href="/#">Brochure & Home gift</a>
                         </li>
                         <li>
-                          <a href="index-2.html#">Digital Printing.</a>
+                          <a href="/#">Digital Printing.</a>
                         </li>
                       </ul>
                     </div>
@@ -228,7 +228,7 @@ const Footer = () => {
                   data-wow-delay=".3s"
                 >
                   <div class="tp-copyright-2__thumb text-end d-none d-md-block">
-                    <a href="index-2.html#">
+                    <a href="/#">
                       <img src="assets/img/footer/footer-2-1.png" alt="" />
                     </a>
                   </div>
