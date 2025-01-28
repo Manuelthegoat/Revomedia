@@ -20,10 +20,33 @@ const TopOffCanvas = ({ className, setClassName }) => {
           </div>
           <div className="tpoffcanvas__title">
             <p>
-            Revolutionary digital printing media: we design; we print; we brand. call now let's partner
+              Revolutionary digital printing media: we design; we print; we
+              brand. call now let's partner
             </p>
           </div>
-          <div className="tp-main-menu-mobile"></div>
+          <div className="tp-main-menu-mobile d-xl-none">
+            <nav className="tp-main-menu-content">
+              <ul className="ali">
+                <li>
+                  <a href="/">Home</a>
+                </li>
+                <li>
+                  <a href="/about-us">about</a>
+                </li>
+
+                <li>
+                  <a href="/services">Printing Services</a>
+                </li>
+                <li>
+                  <a href="/faq">FAQ</a>
+                </li>
+
+                <li>
+                  <a href="/contact">contact</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
           <div className="tpoffcanvas__contact-info">
             <div className="tpoffcanvas__contact-title">
               <h5>Contact us</h5>

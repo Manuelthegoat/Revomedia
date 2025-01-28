@@ -33,7 +33,7 @@ const Header = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-7 d-none d-xl-block">
+                <div className="col-xl-7 d-none d-sm-block d-xl-block">
                   <div className="tp-header__main-menu">
                     <nav className="tp-main-menu-content">
                       <ul className="ali">
