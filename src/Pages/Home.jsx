@@ -16,7 +16,7 @@ const Home = () => {
         <Text />
         <Services />
         <Testimonial />
-        <GetAQuote />
+        <GetAQuote hideSection={true} />
         <FeaturesOne />
       </main>
     </>

@@ -1,4 +1,5 @@
 import React from "react";
+import { data } from "../data";
 
 const GetAQuote = ({hideSection}) => {
   return (
@@ -58,11 +59,12 @@ const GetAQuote = ({hideSection}) => {
             <div class="row">
               <div class="col-12">
                 <div class="tp-work-2__thumb-box d-flex align-items-center">
+                  {data.slice(0,3).map((item) => (
                   <div class="tp-work-2__thumb">
                     <a class="popup-image" href="assets/img/work/work-1-1.png">
                       <img
-                        class="w-100"
-                        src="assets/img/work/work-1-1.png"
+                        height={250}
+                        src={item.image}
                         alt=""
                       />
                     </a>
@@ -70,7 +72,7 @@ const GetAQuote = ({hideSection}) => {
                       <a href="/">
                         <span>
                           <img src="assets/img/work/tshirt1.png" alt="" />T -
-                          Shirt Design
+                          {item.title}
                         </span>
                       </a>
                       <div class="tp-work-2__thumb-text-2">
@@ -78,46 +80,8 @@ const GetAQuote = ({hideSection}) => {
                       </div>
                     </div>
                   </div>
-                  <div class="tp-work-2__thumb">
-                    <a class="popup-image" href="assets/img/work/work-1-2.png">
-                      <img
-                        class="w-100"
-                        src="assets/img/work/work-1-2.png"
-                        alt=""
-                      />
-                    </a>
-                    <div class="tp-work-2__thumb-text">
-                      <a href="/">
-                        <span>
-                          <img src="assets/img/work/tshirt1.png" alt="" />T -
-                          Shirt Design
-                        </span>
-                      </a>
-                      <div class="tp-work-2__thumb-text-2">
-                        <span>Print</span>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="tp-work-2__thumb">
-                    <a class="popup-image" href="assets/img/work/work-1-3.png">
-                      <img
-                        class="w-100"
-                        src="assets/img/work/work-1-3.png"
-                        alt=""
-                      />
-                    </a>
-                    <div class="tp-work-2__thumb-text">
-                      <a href="/">
-                        <span>
-                          <img src="assets/img/work/tshirt1.png" alt="" />T -
-                          Shirt Design
-                        </span>
-                      </a>
-                      <div class="tp-work-2__thumb-text-2">
-                        <span>Print</span>
-                      </div>
-                    </div>
-                  </div>
+                  ))}
+                
                 </div>
               </div>
             </div>
