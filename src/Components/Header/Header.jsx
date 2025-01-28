@@ -50,7 +50,7 @@ const Header = () => {
                         <li>
                           <a href="/faq">FAQ</a>
                         </li>
-                        
+
                         <li>
                           <a href="/contact">contact</a>
                         </li>
@@ -61,11 +61,10 @@ const Header = () => {
                 <div className="col-xl-2 col-lg-6 col-md-6 col-sm-6 col-6">
                   <div className="tp-header__right-box d-flex align-items-center justify-content-end">
                     <ul className="d-none d-sm-block">
-                    
                       <li>
                         <div className="tp-header__chat-box d-block">
-                          <a href="/contact">
-                            Let's Talk
+                          <a href="/quotation">
+                            Quick Quote
                             <span>
                               <svg
                                 width="23"

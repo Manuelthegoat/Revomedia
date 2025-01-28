@@ -1,6 +1,16 @@
 import React from "react";
 
 const Hero = () => {
+  const handleWhatsAppClick = () => {
+    //  WhatsApp number and message
+    const phoneNumber = "2348068336413";
+    const message = "Hello, I'd like to know more about Revomedia flag Production!";
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+      message
+    )}`;
+    window.open(url, "_blank");
+  };
+
   return (
     <>
       <div class="tp-hero__area z-index fix">
@@ -85,7 +95,7 @@ const Hero = () => {
                     <p>
                       Unleashing the power of print, for your business. Bringing your vision to life, one print at a time!
                     </p>
-                    <a class="tp-main-btn" href="/">
+                    <a class="tp-main-btn" onClick={handleWhatsAppClick}>
                       Let’s talk — Send a message
                       <i>
                         <svg

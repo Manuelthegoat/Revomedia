@@ -54,7 +54,7 @@ const Footer = () => {
             <div class="tp-footer-2__ptb">
               <div class="row">
                 <div
-                  class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-50  wow tpfadeUp"
+                  class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-50  wow tpfadeUp"
                   data-wow-duration=".9s"
                   data-wow-delay=".3s"
                 >
@@ -65,50 +65,47 @@ const Footer = () => {
                       </a>
                     </div>
                     <div class="tp-footer-2__text">
-                      <p>2972 Westheimer Rd. Santa Ana, Illinois </p>
+                      <p>
+                        66, 27 Oguntolu St, Olajuwon St, Yaba, Lagos 100001,
+                        Lagos{" "}
+                      </p>
                     </div>
                     <div class="tp-footer-2__contact-list">
                       <a href="mailto:support@example.com">
-                        support@example.com
+                        info@revomedia.com
                       </a>
-                      <a href="tel:+406555-0120">+ (406) 555-0120</a>
+                      <a href="tel:+2348114933065">+234 (811) 493 3065</a>
                     </div>
                     <div class="tp-footer-2__social-box">
-                      <a href="/#">
+                      <a href="https://www.facebook.com/share/1F37HTeKMM/">
                         <i class="fa-brands fa-facebook-f"></i>
                       </a>
-                      <a href="/#">
-                        <i class="fa-brands fa-vimeo-v"></i>
-                      </a>
-                      <a href="/#">
-                        <i class="fa-brands fa-twitter"></i>
-                      </a>
-                      <a href="/#">
-                        <i class="fa-brands fa-linkedin-in"></i>
+                      <a href="https://www.instagram.com/revomedia_ng">
+                        <i class="fa-brands fa-instagram"></i>
                       </a>
                     </div>
                   </div>
                 </div>
                 <div
-                  class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-50  wow tpfadeUp"
+                  class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-50  wow tpfadeUp"
                   data-wow-duration=".9s"
                   data-wow-delay=".5s"
                 >
                   <div class="tp-footer-2__widget footer-col-6">
-                    <h4 class="tp-footer-2__widget-title">Our office</h4>
+                    <h4 class="tp-footer-2__widget-title">Useful Links</h4>
                     <div class="tp-footer-2__list">
                       <ul>
                         <li>
-                          <a href="/#">Newslatter & Blog</a>
+                          <a href="/about-us">About</a>
                         </li>
                         <li>
-                          <a href="/#">Carrer & Contact</a>
+                          <a href="/contact">Carrer & Contact</a>
                         </li>
                         <li>
-                          <a href="/#">Monthly Offer</a>
+                          <a href="/services">Services</a>
                         </li>
                         <li>
-                          <a href="/#">Affiliate Program</a>
+                          <a href="/quotation">Get Quote</a>
                         </li>
                         <li>
                           <a href="/#">Referrel Programms</a>
@@ -117,36 +114,9 @@ const Footer = () => {
                     </div>
                   </div>
                 </div>
+
                 <div
-                  class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-50  wow tpfadeUp"
-                  data-wow-duration=".9s"
-                  data-wow-delay=".7s"
-                >
-                  <div class="tp-footer-2__widget footer-col-7">
-                    <h4 class="tp-footer-2__widget-title">Find It Fast</h4>
-                    <div class="tp-footer-2__list">
-                      <ul>
-                        <li>
-                          <a href="/#">Flexographic Printing.</a>
-                        </li>
-                        <li>
-                          <a href="/#">Computer & Laptop</a>
-                        </li>
-                        <li>
-                          <a href="/#">Surface Printing.</a>
-                        </li>
-                        <li>
-                          <a href="/#">Brochure & Home gift</a>
-                        </li>
-                        <li>
-                          <a href="/#">Digital Printing.</a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-50  wow tpfadeUp"
+                  class="col-xl-4 col-lg-4 col-md-6 col-sm-6 mb-50  wow tpfadeUp"
                   data-wow-duration=".9s"
                   data-wow-delay=".9s"
                 >
@@ -154,7 +124,7 @@ const Footer = () => {
                     <h4 class="tp-footer-2__widget-title">Our Location</h4>
                     <div class="tp-footer-2__location">
                       <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63819.18896320349!2d103.704127!3d1.3570262!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1049969ce5c9:0xae12582d45657edb!2sBukit%20Batok,%20Singapore!5e0!3m2!1sen!2sbd!4v1686988650378!5m2!1sen!2sbd"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.097407120702!2d3.365452874201507!3d6.509353393482961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8d9503a4a875%3A0x7e67b42e240ced46!2sRevo%20Media!5e0!3m2!1sen!2sng!4v1737986365949!5m2!1sen!2sng"
                         width="600"
                         height="450"
                         style={{ border: 0 }}
@@ -211,7 +181,7 @@ const Footer = () => {
             <div class="tp-copyright-2__bdr">
               <div class="row align-items-center">
                 <div
-                  class="col-xl-6 col-lg-6 col-md-6  wow tpfadeUp"
+                  class="col-xl-12 col-lg-12 col-md-12 dfd wow tpfadeUp"
                   data-wow-duration=".9s"
                   data-wow-delay=".3s"
                 >
@@ -220,17 +190,6 @@ const Footer = () => {
                       <strong>© 2025</strong> Powered by Techmint . All Rights
                       Reserved.
                     </span>
-                  </div>
-                </div>
-                <div
-                  class="col-xl-6 col-lg-6 col-md-6  wow tpfadeUp"
-                  data-wow-duration=".9s"
-                  data-wow-delay=".3s"
-                >
-                  <div class="tp-copyright-2__thumb text-end d-none d-md-block">
-                    <a href="/#">
-                      <img src="assets/img/footer/footer-2-1.png" alt="" />
-                    </a>
                   </div>
                 </div>
               </div>

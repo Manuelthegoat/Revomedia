@@ -6,6 +6,7 @@ import Error from "./Pages/Error";
 import Services from "./Pages/Services";
 import FAQ from "./Pages/FAQ";
 import Contact from "./Pages/Contact";
+import Quotation from "./Pages/Quotation";
 
 const Routing = () => {
   return (
@@ -17,6 +18,7 @@ const Routing = () => {
         <Route path="/services" element={<Services />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/quotation" element={<Quotation />} />
       </Routes>
     </>
   );
