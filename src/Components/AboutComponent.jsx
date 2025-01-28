@@ -10,14 +10,7 @@ const AboutComponent = () => {
               <div class="tp-service-2__thumb-box-2 p-relative">
                 <div class="tp-service-2__main-thumb-2 text-center text-lg-strat">
                   <img src="assets/img/service/service-3-3.jpg.png" alt="" />
-                  <div class="tp-service-2__icon">
-                    <a
-                      class="popup-video"
-                      href="https://www.youtube.com/watch?v=PO_fBTkoznc"
-                    >
-                      <i class="fas fa-play"></i>
-                    </a>
-                  </div>
+                
                 </div>
                 <div class="tp-service-2__shape-6">
                   <img src="assets/img/service/service-3-4.jpg.png" alt="" />
