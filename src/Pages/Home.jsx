@@ -3,9 +3,10 @@ import Hero from "../Components/Hero";
 import SliderText from "../Components/SliderText";
 import Text from "../Components/Text";
 import FeaturesOne from "../Components/FeaturesOne";
-import Services from "../Components/Services";
+// import Services from "../Components/Services";
 import Testimonial from "../Components/Testimonial";
 import GetAQuote from "../Components/GetAQuote";
+import Services from './Services';
 
 const Home = () => {
   return (
@@ -14,7 +15,7 @@ const Home = () => {
         <Hero />
         {/* <SliderText /> */}
         <Text />
-        <Services />
+        <Services hide />
         <Testimonial />
         <GetAQuote hideSection={true} />
         <FeaturesOne />

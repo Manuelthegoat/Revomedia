@@ -10,10 +10,13 @@ function App() {
   const location = useLocation();
 
   // Define paths where layout should be hidden
-  const hideLayoutPaths = ["*", "/dashboard"];
-
+  const hideLayoutPaths = ["/admin", "/login", "/admin-products"];
+  
+  // Check if the current path matches the dynamic /edit-product/:id route
+  const isEditProductPage = matchPath("/edit-product/:id", location.pathname);
+  
   // Combine conditions to decide whether to hide the layout
-  const shouldHideLayout = hideLayoutPaths.includes(location.pathname);
+  const shouldHideLayout = hideLayoutPaths.includes(location.pathname) || isEditProductPage;
   return (
     <>
       {!shouldHideLayout && <Header />}

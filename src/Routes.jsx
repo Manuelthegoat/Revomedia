@@ -7,6 +7,10 @@ import Services from "./Pages/Services";
 import FAQ from "./Pages/FAQ";
 import Contact from "./Pages/Contact";
 import Quotation from "./Pages/Quotation";
+import Admin from "./Pages/Admin";
+import Login from "./Pages/Login";
+import ProductsTable from './Pages/ProductsTable'
+import EditProduct from './Pages/EditProduct'
 
 const Routing = () => {
   return (
@@ -18,7 +22,11 @@ const Routing = () => {
         <Route path="/services" element={<Services />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path='/login' element={<Login />} />
         <Route path="/quotation" element={<Quotation />} />
+        <Route path="/admin-products" element={<ProductsTable />} />
+        <Route path="/edit-product/:id" element={<EditProduct />} />
+        <Route path='/admin' element={<Admin />} />
       </Routes>
     </>
   );
