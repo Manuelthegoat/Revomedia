@@ -130,16 +130,14 @@ const Hero = () => {
               </div>
               <div class="col-xl-6 col-lg-6">
                 <div class="tp-hero__thumb-box p-relative text-center text-lg-end">
-                  <img src="assets/img/hero/hero-1.png" alt="" />
+                  <img src="assets/img/heroi.png" alt=""  />
                   <div class="tp-hero__shape-1 d-none d-xl-block">
                     <img src="assets/img/hero/hero-shape-1-1.png" alt="" />
                   </div>
                   <div class="tp-hero__shape-2 d-none d-lg-block">
                     <img src="assets/img/hero/hero-shape-1-2.png" alt="" />
                   </div>
-                  <div class="tp-hero__shape-3 d-none d-md-block">
-                    <img src="assets/img/hero/hero-shape-1-3.png" alt="" />
-                  </div>
+                
                   <div class="tp-hero__shape-4 d-none d-md-block">
                     <img src="assets/img/hero/hero-shape-1-4.png" alt="" />
                   </div>

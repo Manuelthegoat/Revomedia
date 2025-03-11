@@ -55,13 +55,11 @@ const Testimonial = () => {
                         </svg>
                       </span>
                     </span>
-                     &nbsp;us!
+                    &nbsp;us!
                   </h3>
                 </div>
                 <div class="tp-testimonial__button">
-                  <p>
-                    Here's what our clients are saying.
-                  </p>
+                  <p>Here's what our clients are saying.</p>
                   <div class="d-none d-md-block">
                     <a class="tp-btn-lg" href="contact/">
                       Let’s talk — Send a message
@@ -111,19 +109,11 @@ const Testimonial = () => {
                       <div class="tp-testimonial__item">
                         <div class="tp-testimonial__top-box d-flex align-items-center justify-content-between">
                           <div class="tp-testimonial__author-box d-flex align-items-center">
-                            <div class="tp-testimonial__thumb">
-                              <img
-                                src="assets/img/testimonial/author-1-1.png"
-                                alt=""
-                              />
-                            </div>
                             <div class="tp-testimonial__author-info">
                               <h5 class="tp-testimonial__author-name">
-                                Mathias Herasen
+                                Creative Director,{" "}
+                                <b>Lagos-based Advertising Agency</b>
                               </h5>
-                              <span>
-                                Founder of <b>GamerPay</b>
-                              </span>
                             </div>
                           </div>
                           <div class="tp-testimonial__icon">
@@ -153,9 +143,12 @@ const Testimonial = () => {
                         </div>
                         <div class="tp-testimonial__content">
                           <p>
-                            “Modern customer service software solution that was
-                            exactly what we were looking for. From the feature
-                            set to the pricing model primchat great for us.”
+                            “Revo Media has been our go-to printing partner for
+                            years, and they never cease to amaze us! Their
+                            exceptional quality, attention to detail, and
+                            outstanding customer service make them the best in
+                            the business. We've tried others, but none compare
+                            to Revo Media's excellence.”
                           </p>
                           <span>“ AMAZING SERVICE “</span>
                         </div>
@@ -165,19 +158,11 @@ const Testimonial = () => {
                       <div class="tp-testimonial__item">
                         <div class="tp-testimonial__top-box d-flex align-items-center justify-content-between">
                           <div class="tp-testimonial__author-box d-flex align-items-center">
-                            <div class="tp-testimonial__thumb">
-                              <img
-                                src="assets/img/testimonial/author-2-1.png"
-                                alt=""
-                              />
-                            </div>
+                          
                             <div class="tp-testimonial__author-info">
                               <h5 class="tp-testimonial__author-name">
-                                Daniel Lei
+                                Event Planner, Abuja
                               </h5>
-                              <span>
-                                Founder of <b>GamerPay</b>
-                              </span>
                             </div>
                           </div>
                           <div class="tp-testimonial__icon">
@@ -207,9 +192,12 @@ const Testimonial = () => {
                         </div>
                         <div class="tp-testimonial__content">
                           <p>
-                            “Modern customer service software solution that was
-                            exactly what we were looking for. From the feature
-                            set to the pricing model primchat great for us.”
+                            “Revo Media offered us the best prices in town
+                            without sacrificing quality. Their team was flexible
+                            and accommodating, working with us to meet our
+                            unique printing needs. We appreciate their
+                            commitment to customer satisfaction and look forward
+                            to continuing our partnership.”
                           </p>
                           <span>“ AMAZING SERVICE “</span>
                         </div>
@@ -219,19 +207,12 @@ const Testimonial = () => {
                       <div class="tp-testimonial__item">
                         <div class="tp-testimonial__top-box d-flex align-items-center justify-content-between">
                           <div class="tp-testimonial__author-box d-flex align-items-center">
-                            <div class="tp-testimonial__thumb">
-                              <img
-                                src="assets/img/testimonial/author-3-1.png"
-                                alt=""
-                              />
-                            </div>
+                          
                             <div class="tp-testimonial__author-info">
                               <h5 class="tp-testimonial__author-name">
-                                Rodney Parker
+                               Business Owner, Port Harcourt
                               </h5>
-                              <span>
-                                Founder of <b>GamerPay</b>
-                              </span>
+                            
                             </div>
                           </div>
                           <div class="tp-testimonial__icon">
@@ -261,9 +242,7 @@ const Testimonial = () => {
                         </div>
                         <div class="tp-testimonial__content">
                           <p>
-                            “Modern customer service software solution that was
-                            exactly what we were looking for. From the feature
-                            set to the pricing model primchat great for us.”
+                            “ Revo Media's team of experts provided invaluable guidance on the best printing solutions for our marketing materials. Their innovative approach and commitment to staying up-to-date with the latest printing technologies ensure that our prints always stand out. We're grateful for their partnership and expertise.”
                           </p>
                           <span>“ AMAZING SERVICE “</span>
                         </div>

@@ -125,7 +125,17 @@ const Admin = () => {
               required
             />
           </div>
-        
+          <div className="form-group"> {/* Added new size field */}
+            <label>Size</label>
+            <input
+              type="text"
+              name="size"
+              value={formData.size}
+              onChange={handleInputChange}
+              placeholder="Enter product size (e.g., S, M, L)"
+              required
+            />
+          </div>
           <div className="form-group">
             <label>Discount Price (₦)</label>
             <input

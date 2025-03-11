@@ -15,7 +15,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("https://revo1-1.onrender.com/api/admin/login", {
+      const response = await fetch("https://flag-b5wv.onrender.com/api/admin/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
