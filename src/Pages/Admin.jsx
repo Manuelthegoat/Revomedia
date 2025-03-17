@@ -42,7 +42,7 @@ const Admin = () => {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization: token ? `Bearer ${token}` : undefined,
+          Authorization: token ? `Bearer {token}` : undefined,
         },
         body: JSON.stringify(formData),
       });

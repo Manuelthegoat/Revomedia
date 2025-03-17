@@ -151,8 +151,8 @@ const Services = ({ hide }) => {
                               <a href={item.link}>{item.name}</a>
                             </h4>
                             <div class="tp-fea-product__price">
-                              <span>${item.price}</span>
-                              <del>$362.00</del>
+                              <span>₦{item.price}</span>
+                              <del>₦362.00</del>
                             </div>
                             <div class="tp-fea-product__link-box">
                               <a class="tp-btn-cart" href="cart.html">

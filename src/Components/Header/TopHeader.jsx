@@ -14,7 +14,7 @@ const TopHeader = () => {
                 </div>
                 <div className="col-xxl-4 col-xl-5 d-none d-xl-block">
                   <div className="tp-header-top__shop-box text-xl-start text-end">
-                    <span>Free shipping on all Lagos orders $50+</span>
+                    <span>Free shipping on all Lagos orders ₦50+</span>
                     <a href="/">Shop Now</a>
                   </div>
                 </div>
