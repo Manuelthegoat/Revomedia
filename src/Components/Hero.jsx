@@ -4,7 +4,7 @@ const Hero = () => {
   const handleWhatsAppClick = () => {
     //  WhatsApp number and message
     const phoneNumber = "2348068336413";
-    const message = "Hello, I'd like to know more about Revomedia flag Production!";
+    const message = "Hello, I'd like to know more about Revomedia!";
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
       message
     )}`;
