@@ -14,6 +14,16 @@ const Services = ({ hide }) => {
       .then(data => setProducts(data.data))
       .catch(error => console.error('Error fetching data:', error));
   }, []); // Empty dependency array means this runs once on component mount
+
+  const handleWhatsAppClick = (item) => {
+    const phoneNumber = "2348068336413"; // Replace with your WhatsApp number
+    const message = `Hello, I am interested in the service "${item.name}". Could you provide more details about it?`;
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+      message
+    )}`;
+    window.open(url, "_blank");
+  };
+
   return (
     <main>
       <Breadcrumb title={"Our Services"} />
@@ -152,10 +162,9 @@ const Services = ({ hide }) => {
                             </h4>
                             <div class="tp-fea-product__price">
                               <span>₦{item.price}</span>
-                              <del>₦362.00</del>
                             </div>
                             <div class="tp-fea-product__link-box">
-                              <a class="tp-btn-cart" href="cart.html">
+                              <a class="tp-btn-cart"  onClick={() => handleWhatsAppClick(item)}>
                                 <span>
                                   <svg
                                     width="16"
@@ -170,7 +179,7 @@ const Services = ({ hide }) => {
                                     />
                                   </svg>
                                 </span>
-                                Add To Cart
+                                Order on Whatsapp
                               </a>
                             </div>
                           </div>
