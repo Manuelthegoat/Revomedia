@@ -9,10 +9,10 @@ const Services = ({ hide }) => {
 
   useEffect(() => {
     // Fetch data from the API
-    fetch('https://revo1-1.onrender.com/api/products')
-      .then(response => response.json())
-      .then(data => setProducts(data.data))
-      .catch(error => console.error('Error fetching data:', error));
+    fetch("https://revo1-1.onrender.com/api/products")
+      .then((response) => response.json())
+      .then((data) => setProducts(data.data))
+      .catch((error) => console.error("Error fetching data:", error));
   }, []); // Empty dependency array means this runs once on component mount
 
   const handleWhatsAppClick = (item) => {
@@ -34,6 +34,152 @@ const Services = ({ hide }) => {
         <div class="tp-fea-product__shape-2 d-none d-xxl-block">
           <img src="assets/img/product/shappe-4-2.png" alt="" />
         </div>
+        <div class="tp-catagori__area p-relative pb-115 fix">
+          <div class="tp-catagori__shape-1 d-none d-xxl-block">
+            <img src="assets/img/catagori/shape-1-1.png" alt="" />
+          </div>
+          <div class="tp-catagori__shape-2 d-none d-xxl-block">
+            <img src="assets/img/catagori/shape-1-2.png" alt="" />
+          </div>
+          <div class="container">
+            <div class="tp-catagori__box p-relative">
+              <div class="tp-catagori__wrapper">
+                <div class="swiper-container tp-catagori__active">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="tp-catagori__catagori-wrap">
+                        <div class="tp-catagori__catagori-box">
+                          <div class="row g-0">
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-catagori-1">
+                              <div class="tp-catagori__border">
+                                <div class="tp-catagori__item p-relative d-flex align-items-center">
+                                  <div class="tp-catagori__thumb">
+                                    <img
+                                      src="assets/img/catagori/icon-1-1.png"
+                                      alt=""
+                                    />
+                                    <div class="tp-catagori__shape">
+                                      <img
+                                        src="assets/img/catagori/icon-shape-1.png"
+                                        alt=""
+                                      />
+                                    </div>
+                                  </div>
+                                  <div class="tp-catagori__text">
+                                    <h5 class="tp-catagori__title">
+                                      <a href="/">Graphic Design</a>
+                                    </h5>
+                                    <p>
+                                      Our team of creative design experts are
+                                      committed to providing you with
+                                      exceptional designs that truly reflects
+                                      your brand and corporate identity.
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-catagori-2">
+                              <div class="tp-catagori__border">
+                                <div class="tp-catagori__item p-relative d-flex align-items-center">
+                                  <div class="tp-catagori__thumb">
+                                    <img
+                                      src="assets/img/catagori/icon-1-2.png"
+                                      alt=""
+                                    />
+                                    <div class="tp-catagori__shape">
+                                      <img
+                                        src="assets/img/catagori/icon-shape-1.png"
+                                        alt=""
+                                      />
+                                    </div>
+                                  </div>
+                                  <div class="tp-catagori__text">
+                                    <h5 class="tp-catagori__title">
+                                      <a href="/">
+                                        HOT FOIL & UV SOFT PRINTING
+                                      </a>
+                                    </h5>
+                                    <p>
+                                      Hot foil and UV Soft comes in variety of
+                                      colours and textures that gives an elegant
+                                      touch to invitation cards, business cards,
+                                      album covers, photo albums etc.
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-catagori-3">
+                              <div class="tp-catagori__border">
+                                <div class="tp-catagori__item tp-catagori__item-2 p-relative d-flex align-items-center">
+                                  <div class="tp-catagori__thumb">
+                                    <img
+                                      src="assets/img/catagori/icon-1-3.png"
+                                      alt=""
+                                    />
+                                    <div class="tp-catagori__shape">
+                                      <img
+                                        src="assets/img/catagori/icon-shape-1.png"
+                                        alt=""
+                                      />
+                                    </div>
+                                  </div>
+                                  <div class="tp-catagori__text">
+                                    <h5 class="tp-catagori__title">
+                                      <a href="/">LARGE FORMAT PRINTING</a>
+                                    </h5>
+                                    <p>
+                                      We offer a wide range of large format
+                                      custom print from Flex Banners, Vinyl
+                                      Stickers (SAV), Rollup Banners, Backdrops,
+                                      Window Graphics Printing etc.
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-catagori-4">
+                              <div class="tp-catagori__border">
+                                <div class="tp-catagori__item tp-catagori__item-2 p-relative d-flex align-items-center">
+                                  <div class="tp-catagori__thumb">
+                                    <img
+                                      src="assets/img/catagori/icon-1-4.png"
+                                      alt=""
+                                    />
+                                    <div class="tp-catagori__shape">
+                                      <img
+                                        src="assets/img/catagori/icon-shape-1.png"
+                                        alt=""
+                                      />
+                                    </div>
+                                  </div>
+                                  <div class="tp-catagori__text">
+                                    <h5 class="tp-catagori__title">
+                                      <a href="/">PROMOTIONAL AND GIFT ITEMS</a>
+                                    </h5>
+                                    <p>
+                                      Quality Branded Promotional Gifts, Custom
+                                      Printed Corporate Gifts for Special
+                                      events, business advert, employee
+                                      recognition, and client gifts etc. we've
+                                      got you covered.
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="container custom-container-3">
           {!hide && (
             <>
@@ -101,7 +247,7 @@ const Services = ({ hide }) => {
                               <span>Hot</span>
                             </div>
                             <div class="tp-fea-product__icon-box">
-                              <a >
+                              <a>
                                 <svg
                                   width="17"
                                   height="17"
@@ -119,7 +265,7 @@ const Services = ({ hide }) => {
                                   />
                                 </svg>
                               </a>
-                              <a >
+                              <a>
                                 <svg
                                   width="18"
                                   height="16"
@@ -133,7 +279,7 @@ const Services = ({ hide }) => {
                                   />
                                 </svg>
                               </a>
-                              <a >
+                              <a>
                                 <svg
                                   width="14"
                                   height="12"
@@ -150,7 +296,6 @@ const Services = ({ hide }) => {
                             </div>
                           </div>
                           <div class="tp-fea-product__content text-center">
-                           
                             <h4 class="tp-fea-product__title-sm">
                               <a href={item.link}>{item.name}</a>
                             </h4>
@@ -159,7 +304,10 @@ const Services = ({ hide }) => {
                               <span>₦{item.price}</span>
                             </div>
                             <div class="tp-fea-product__link-box">
-                              <a class="tp-btn-cart"  onClick={() => handleWhatsAppClick(item)}>
+                              <a
+                                class="tp-btn-cart"
+                                onClick={() => handleWhatsAppClick(item)}
+                              >
                                 <span>
                                   <svg
                                     width="16"
@@ -188,7 +336,6 @@ const Services = ({ hide }) => {
           </div>
         </div>
       </div>
-    
 
       <GetAQuote hideSection={true} />
     </main>
