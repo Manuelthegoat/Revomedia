@@ -3,7 +3,7 @@ import React from "react";
 const Text = () => {
   return (
     <>
-      <div class="tp-project-3__area fix p-relative pt-90 pb-125">
+      <div class="tp-project-3__area fix p-relative">
         <div class="tp-project-3__shape-1 d-none d-xl-block">
           <img src="assets/img/project/shape-1-1.png" alt="" />
         </div>
@@ -57,7 +57,7 @@ const Text = () => {
 
           <div class="row">
             <div class="col-xl-12">
-              <div class="tp-project-3__button text-center pt-110">
+              <div class="tp-project-3__button text-center ">
                 <a class="tp-main-btn" href="contact/">
                   Let’s talk — Send a message
                   <i>

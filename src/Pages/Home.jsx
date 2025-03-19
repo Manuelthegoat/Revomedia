@@ -7,6 +7,7 @@ import FeaturesOne from "../Components/FeaturesOne";
 import Testimonial from "../Components/Testimonial";
 import GetAQuote from "../Components/GetAQuote";
 import Services from './Services';
+import SwiperPage from '../Components/Swiper';
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
         {/* <SliderText /> */}
         <Text />
         <Services hide />
+        <SwiperPage />
         <Testimonial />
         <GetAQuote hideSection={true} />
         <FeaturesOne />

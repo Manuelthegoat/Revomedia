@@ -1,8 +1,11 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper/modules";
 
 // Import Swiper styles
 import "swiper/css";
+
+import "swiper/css/navigation";
 
 const Testimonial = () => {
   return (
@@ -98,8 +101,10 @@ const Testimonial = () => {
             <div class="col-xl-7 col-lg-7">
               <div class="tp-testimonial__wrapper">
                 <Swiper
+                  modules={[Navigation]}
                   spaceBetween={90}
                   slidesPerView={1}
+                  navigation
                   onSlideChange={() => console.log("slide change")}
                   onSwiper={(swiper) => console.log(swiper)}
                   class="swiper-container tp-testimonial__active"
@@ -158,7 +163,6 @@ const Testimonial = () => {
                       <div class="tp-testimonial__item">
                         <div class="tp-testimonial__top-box d-flex align-items-center justify-content-between">
                           <div class="tp-testimonial__author-box d-flex align-items-center">
-                          
                             <div class="tp-testimonial__author-info">
                               <h5 class="tp-testimonial__author-name">
                                 Event Planner, Abuja
@@ -207,12 +211,10 @@ const Testimonial = () => {
                       <div class="tp-testimonial__item">
                         <div class="tp-testimonial__top-box d-flex align-items-center justify-content-between">
                           <div class="tp-testimonial__author-box d-flex align-items-center">
-                          
                             <div class="tp-testimonial__author-info">
                               <h5 class="tp-testimonial__author-name">
-                               Business Owner, Port Harcourt
+                                Business Owner, Port Harcourt
                               </h5>
-                            
                             </div>
                           </div>
                           <div class="tp-testimonial__icon">
@@ -242,7 +244,13 @@ const Testimonial = () => {
                         </div>
                         <div class="tp-testimonial__content">
                           <p>
-                            “ Revo Media's team of experts provided invaluable guidance on the best printing solutions for our marketing materials. Their innovative approach and commitment to staying up-to-date with the latest printing technologies ensure that our prints always stand out. We're grateful for their partnership and expertise.”
+                            “ Revo Media's team of experts provided invaluable
+                            guidance on the best printing solutions for our
+                            marketing materials. Their innovative approach and
+                            commitment to staying up-to-date with the latest
+                            printing technologies ensure that our prints always
+                            stand out. We're grateful for their partnership and
+                            expertise.”
                           </p>
                           <span>“ AMAZING SERVICE “</span>
                         </div>

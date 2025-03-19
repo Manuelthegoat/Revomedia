@@ -3,8 +3,9 @@ import { useNavigate } from "react-router-dom";
 import Cookies from "js-cookie";
 
 const Login = () => {
-  const [formData, setFormData] = useState({ "username": "", "password": "" });
+  const [formData, setFormData] = useState({ username: "", password: "" });
   const [error, setError] = useState(null);
+  const [showPassword, setShowPassword] = useState(false);
   const navigate = useNavigate();
 
   const handleInputChange = (e) => {
@@ -15,13 +16,16 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("https://flag-b5wv.onrender.com/api/admin/login", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
+      const response = await fetch(
+        "https://flag-b5wv.onrender.com/api/admin/login",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(formData),
+        }
+      );
 
       if (!response.ok) {
         throw new Error("Invalid credentials");
@@ -57,14 +61,23 @@ const Login = () => {
           </div>
           <div className="form-group">
             <label>Password</label>
-            <input
-              type="password"
-              name="password"
-              value={formData.password}
-              onChange={handleInputChange}
-              placeholder="Enter your password"
-              required
-            />
+            <div className="pass">
+              <input
+                type={showPassword ? "text" : "password"}
+                name="password"
+                value={formData.password}
+                onChange={handleInputChange}
+                placeholder="Enter your password"
+                required
+              />
+
+              <i
+                className={`password-toggle-icon eye ${
+                  showPassword ? "fa fa-eye-slash" : "fa fa-eye"
+                }`}
+                onClick={() => setShowPassword(!showPassword)}
+              ></i>
+            </div>
           </div>
           <button type="submit" className="submit-button">
             Login

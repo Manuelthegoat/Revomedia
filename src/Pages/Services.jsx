@@ -27,7 +27,7 @@ const Services = ({ hide }) => {
   return (
     <main>
       <Breadcrumb title={"Our Services"} />
-      <div class="tp-fea-product__area p-relative fix grey-bg-2 pb-35 pt-115 grey-bg-2">
+      <div class="tp-fea-product__area p-relative fix grey-bg-2 pb-35 grey-bg-2">
         <div class="tp-fea-product__shape-1 d-none d-lg-block">
           <img src="assets/img/product/shappe-4-1.png" alt="" />
         </div>
@@ -94,14 +94,14 @@ const Services = ({ hide }) => {
                   <div class="row">
                     {products.map((item) => (
                       <div class="col-xl-4 col-lg-4 col-md-6 mb-25">
-                        <div class="tp-fea-product__item">
+                        <div class="tp-fea-product__item  hei">
                           <div class="tp-fea-product__thumb fix p-relative">
-                            <img src={item.productImage} alt="" />
+                            <img src={item.productImage} height={270} alt="" />
                             <div class="tp-fea-product__thumb-text">
                               <span>Hot</span>
                             </div>
                             <div class="tp-fea-product__icon-box">
-                              <a href="index-4.html#">
+                              <a >
                                 <svg
                                   width="17"
                                   height="17"
@@ -119,7 +119,7 @@ const Services = ({ hide }) => {
                                   />
                                 </svg>
                               </a>
-                              <a href="index-4.html#">
+                              <a >
                                 <svg
                                   width="18"
                                   height="16"
@@ -133,7 +133,7 @@ const Services = ({ hide }) => {
                                   />
                                 </svg>
                               </a>
-                              <a href="index-4.html#">
+                              <a >
                                 <svg
                                   width="14"
                                   height="12"
@@ -150,16 +150,11 @@ const Services = ({ hide }) => {
                             </div>
                           </div>
                           <div class="tp-fea-product__content text-center">
-                            <div class="tp-fea-product__star">
-                              <i class="fa-solid fa-star"></i>
-                              <i class="fa-solid fa-star"></i>
-                              <i class="fa-solid fa-star"></i>
-                              <i class="fa-solid fa-star"></i>
-                              <i class="fa-solid fa-star color"></i>
-                            </div>
+                           
                             <h4 class="tp-fea-product__title-sm">
                               <a href={item.link}>{item.name}</a>
                             </h4>
+                            <p>{item.description}</p>
                             <div class="tp-fea-product__price">
                               <span>₦{item.price}</span>
                             </div>
