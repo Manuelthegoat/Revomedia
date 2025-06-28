@@ -17,10 +17,10 @@ const Home = () => {
         {/* <SliderText /> */}
         <Text />
         <Services hide />
-        <SwiperPage />
+        {/* <SwiperPage /> */}
         <Testimonial />
-        <GetAQuote hideSection={true} />
-        <FeaturesOne />
+        {/* <GetAQuote hideSection={true} /> */}
+        {/* <FeaturesOne /> */}
       </main>
     </>
   )
